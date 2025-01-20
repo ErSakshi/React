@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans;
+}
+
+#header{
+    height: 70px;
+    width: 100%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#header> .logo{
+    height: 60px;
+    width: 50%;
+    /* border: 1px solid red; */
+}
+#header> .rightnav{
+    height: 60px;
+    width: 40%;
+    /* border: 1px solid blue; */
+}
+
+
+ .search{
+    height:35px ;
+    width:35vw;
+    margin-left:"3px";
+    border: transparent;
+    border-end-end-radius: 5%;
+    border-end-start-radius: 5%;
+    background-color:  #edf3fa;
+   padding-left: 30px;
+   font-size: large;
+   justify-content: center;
+   align-items: center;
+    
+    
+}
+#searchbar{
+    height: 9vh;
+    width: 1.4vw;
+    margin-left: 5px;
+    position: absolute;
+    margin-top: 2px;
+    color: rgb(156, 152, 152);
+}
+#login{
+    height:3px;
+    width: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 60px;
+    margin-top: 30px;
+    padding-left: 50px;
+    gap: 2px;
+    font-size: larger;
+  
+}
+.rightnav{
+    display: flex;
+    justify-content: space-around;
+  
+}
+#seller{
+    height: 60px;
+    width: 40px;
+    
+   margin-right: 2px;
+}
+.sect{
+    justify-content:"center";
+    align-items:"center";
+    gap:"10px";
+    padding-top: 10px;
+    font-size: larger;
+
+}
+#divsec{
+    height: 200px;
+    width: 100%;
+   
+    display: flex;
+  
+}
+#divsec> section{
+    height: 200px;
+    width:10%;
+    background-color: aquamarine;
+    justify-content: space-around;
+ align-items: center;
+ margin-left:10px;
+ margin-right:5px;
+}

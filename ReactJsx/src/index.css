@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#eventsTask2{
+    height: 5vw;
+    width: 5vw;
+    background-color: rgb(86, 4, 86);
+}
+
+#customLoader{
+    width: 50px;
+    height: 50px;
+    border: 10px solid black; 
+    border-top: 10px solid red;
+    border-radius: 50%;
+    animation: loader 1s linear infinite;
+}
+@keyframes loader{
+    from{
+        transform: rotate(-720deg);
+    }
+}
